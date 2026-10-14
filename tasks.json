@@ -1,0 +1,9 @@
+{
+  "requirements": [],
+  "design": ["requirements"],
+  "api": ["design"],
+  "database": ["design"],
+  "frontend": ["design"],
+  "integration_tests": ["api", "database", "frontend"],
+  "release": ["integration_tests"]
+}
